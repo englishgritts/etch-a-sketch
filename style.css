@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 .container {
     display: grid;
@@ -24,3 +25,6 @@ button {
     text-align: center;
 }
 
+.black {
+    background-color: black;
+}
