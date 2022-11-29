@@ -7,8 +7,10 @@ body {
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(16, 20px [col-start]);
-    grid-auto-rows: minmax(20px, auto);
+    grid-template-columns: repeat(95, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    width: 600px;
+    height: 600px;
     text-align: center;
     border: 1px solid black;
 }
@@ -28,3 +30,4 @@ button {
 .black {
     background-color: black;
 }
+

@@ -1,13 +1,12 @@
 const container = document.querySelector('.container');
-let grid = 16;
+let grid = 95;
 
 function changeColor() { //Create the grid and div elements
     for (i=0; i <= (grid * grid); i++) {
         const grid = document.createElement('div');
-        grid.addEventListener('mouseover', colorBlack) 
+        grid.addEventListener('mouseover', colorBlack)
         //Mouseover to black
         container.appendChild(grid);
-    
     }
 }
 
